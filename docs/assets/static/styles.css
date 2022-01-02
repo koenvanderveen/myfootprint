@@ -1,10 +1,21 @@
 
 body{
 	margin:0;
+	font-family: 'Karla', sans-serif;
+	color: white;
 }
 
 #start-button{
 	background-color: white;
+	background: white;
+	font-weight: 600;
+	font-size: 18 !important;
+	color: #352800;
+	border: none;
+	padding: 8px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 #signup{
@@ -17,6 +28,42 @@ body{
 	top:0;
 }
 
+#site-title{
+	margin:32px;
+}
+
 #mc_embed_signup {
     background: inherit;
+}
+
+html { 
+	background: url(background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+#col-left{
+	width:50%;
+	float:left;
+}
+
+#col-right{
+	width:50%;
+	float:right;
+}
+
+#main-block{
+	margin: 128 auto;
+
+	/* position: absolute; */
+	padding:32px;
+	width: 936px;
+	height: 548px;
+	/* left: 307px; */
+	top: 217px;
+
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 12px;
 }
